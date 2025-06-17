@@ -16,7 +16,7 @@
 ## 🛠 نصب و استفاده
 
 ```bash
-git clone https://github.com/username/archlinux-mirror-switcher.git
-cd archlinux-mirror-switcher
+https://github.com/VC365/ArchMirror_Script.git
+cd ArchMirror_Script
 chmod a+x TR.sh
 ./TR.sh
