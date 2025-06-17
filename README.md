@@ -20,3 +20,5 @@ https://github.com/VC365/ArchMirror_Script.git
 cd ArchMirror_Script
 chmod a+x TR.sh
 ./TR.sh
+‍‍```
+## اگه این اسکریپت به کارت اومد ستاره فراموش نشه تا بفهمم به درد خورد :)
