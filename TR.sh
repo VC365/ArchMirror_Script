@@ -126,7 +126,8 @@ else
     while read -r result; do
         if [[ "$result" == *"Unavailable"* ]]; then
             mirror_url=$(echo "$result" | awk '{print $1}')
-            printf "%-70s ${RED}%-10s${RESET}\n" "$mirror_url" "Unavailable"  
+            printf "%-70s ${RED}%-10s${RESET}\n" "$mirror_url" "Unavailable"
+			((choice_count--))
         fi
     done < "$TST_file"
 fi
